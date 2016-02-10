@@ -6,4 +6,7 @@ Rails.application.routes.draw do
   # mount ActionCable.server => '/cable'
   root to: "home#index"
   resources :publications, only: [:index, :show]
+  namespace :admin do
+    resources :publications
+  end
 end
