@@ -17,9 +17,11 @@ gem 'sprockets-rails', :require => 'sprockets/railtie'
 gem 'devise', git: 'https://github.com/plataformatec/devise.git'
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'sass-rails', '>= 3.2'
+gem 'stripe', :git => 'https://github.com/stripe/stripe-ruby'
 
 group :development, :test do
   gem 'byebug'
+  gem 'dotenv-rails'
 end
 
 group :development do
