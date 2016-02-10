@@ -1,25 +1,4 @@
 ## README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# subscription-app
+Subscription App is a basic test application on how to implement Stripe as payment gateway.
+It is implemented in a Ruby on Rails ( v.5.2 beta ) and MySQL.
